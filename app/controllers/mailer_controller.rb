@@ -1,5 +1,6 @@
 class MailerController < ApplicationController
 	def create
+		@user = User.new(params[:user])
 		puts "To:"
 		puts "Subject"
 		puts "Message"
