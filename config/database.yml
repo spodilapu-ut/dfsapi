@@ -26,8 +26,8 @@ test:
   timeout: 5000
 
 production:
-  adapter: postgresql
+  <<: *default
   database: authentication_production
-  pool: 5
-  timeout: 5000
+  username: abhi
+  password: <%= ENV['authentication_production_password'] %>
 
