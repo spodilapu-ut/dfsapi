@@ -22,6 +22,6 @@ test:
 
 production:
   <<: *default
-  database: authentication_production
-  username: abhi
-  password: <%= ENV['AUTHENTICATION_DATABASE_PASSWORD'] %>
+  database: dvn9r7m41h96t
+  username: nswtmbbpvpnryv
+  password: cbcfbde2ed0d4baa5992eebfeffe5a6f51cde950cdba4f492e079f38189f289c
