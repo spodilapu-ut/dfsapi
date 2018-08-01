@@ -1,1 +1,1 @@
-bundle exec rails server -p $PORT 3000 
+bundle exec rails server -p $PORT 3000
