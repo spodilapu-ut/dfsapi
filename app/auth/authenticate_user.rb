@@ -8,7 +8,7 @@ class AuthenticateUser
   # Service entry point
   def call
     #JsonWebToken.encode(user_id: user.id) if user
-    @encoded_auth_token = JsonWebToken.encode({user_id: user.id}, key: 'gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr9C') if user
+    @encoded_auth_token = JsonWebToken.sign({user_id: user.id}, key: 'gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr9C') if user
   end
 
   private
