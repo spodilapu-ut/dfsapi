@@ -17,6 +17,7 @@ gem 'active_model_serializers', '~> 0.10.0'
 gem 'will_paginate', '~> 3.1.0'
 gem 'faker'
 gem 'sendwithus_ruby_action_mailer', '~> 0.4.0'
+gem 'rails_12factor', '~> 0.0.3'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
