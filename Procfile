@@ -1,1 +1,1 @@
-web bin/rails server -p $PORT -e $RAILS_ENV
+bundle exec rails server -p $PORT 3000 
