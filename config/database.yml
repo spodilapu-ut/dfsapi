@@ -20,8 +20,11 @@ test:
   <<: *default
   database: authentication_test
 
+#production:
+#  <<: *default
+#  database: d8g76nnmpg4o58
+#  username: svunqigoztyypj
+#  password: dbbd97aeaf3eeafb8aa3e31f69f82db69cf96d78fff9565c12abe6b15e3886d9
+
 production:
-  <<: *default
-  database: d8g76nnmpg4o58
-  username: svunqigoztyypj
-  password: dbbd97aeaf3eeafb8aa3e31f69f82db69cf96d78fff9565c12abe6b15e3886d9
+  url: <%= ENV['DATABASE_URL'] %>
