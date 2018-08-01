@@ -12,7 +12,7 @@ gem 'puma', '~> 3.11'
 
 gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
-gem 'json_web_token'	
+#gem 'json_web_token'	
 gem 'active_model_serializers', '~> 0.10.0'
 gem 'will_paginate', '~> 3.1.0'
 gem 'faker'
