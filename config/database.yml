@@ -26,5 +26,9 @@ test:
 #  username: svunqigoztyypj
 #  password: dbbd97aeaf3eeafb8aa3e31f69f82db69cf96d78fff9565c12abe6b15e3886d9
 
+#DigitalOcean
 production:
-  url: <%= ENV['DATABASE_URL'] %>
+  <<: *default
+  username: rails
+  password: e791dcff1aadf2eab53a27e6e07ec3c7
+
