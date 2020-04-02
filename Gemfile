@@ -7,7 +7,7 @@ ruby '2.4.0'
 gem 'rails', '~> 5.2.0'
 
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 
 
 gem 'bcrypt', '~> 3.1.7'
